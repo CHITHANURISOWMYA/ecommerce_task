@@ -473,8 +473,8 @@
             div1.setAttribute("id", "div12")
 
             div1.innerHTML = ` <div id="sapce"><br>
-            <b>   Product No:  ${val.id} </b>
-            <br><br>
+          
+            <br>
          <center>   <img src='${val.image}' style='height:120px;width:120px'> <br><br>    
             <h2>${val.category}</h2></center>
             <h3>${val.title}</h3>
@@ -532,7 +532,7 @@
             btn000.addEventListener("click", () => {
 
 
-                window.confirm("You item added to cart");
+                window.confirm("Your product is added to cart");
 
                 let val = JSON.parse(localStorage.getItem("cart"));
 
