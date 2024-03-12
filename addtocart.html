@@ -76,10 +76,7 @@ local.map((val,ind)=>{
 let ikj=document.createElement("div");
 
 ikj.innerHTML=` <div id="dii">
-<br>
-
-<b>   Product No:  ${val.id} </b>
-            <br><br>
+<br><br>
          <center>   <img src='${val.image}' style='height:100px'> <br><br>    
             <h2>${val.category}</h2></center>
          
@@ -88,11 +85,6 @@ ikj.innerHTML=` <div id="dii">
                <center> <h3>Price: <b>   ${val.price} $ </h3></center> <br>
 
 </div>`
-
-
-
-
-
 let bb=document.createElement("button");
 
 bb.innerText="Remove to Cart";
